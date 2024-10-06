@@ -1,5 +1,5 @@
 function fetchHealthCheck() {
-    fetch('https://tms.work.gd/api/health_check/')  // Replace with your endpoint URL
+    fetch('https://cors.bridged.cc/https://tms.work.gd/api/health_check/')  // Replace with your endpoint URL
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -20,5 +20,8 @@ function fetchHealthCheck() {
 // Call the function immediately to fetch data the first time
 fetchHealthCheck();
 
-// Set an interval to call the function every hour (3600000 milliseconds)
-setInterval(fetchHealthCheck, 3600000);
+function healthCheck() {
+    // Set an interval to call the function every hour (3600000 milliseconds)
+    setInterval(fetchHealthCheck, 3600000);
+}
+
