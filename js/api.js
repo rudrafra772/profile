@@ -1,5 +1,5 @@
 function fetchHealthCheck() {
-    fetch('https://cors.bridged.cc/https://tms.work.gd/api/health_check/')  // Replace with your endpoint URL
+    fetch('https://tms.work.gd/api/health_check/', { crossDomain: true,})  // Replace with your endpoint URL
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
