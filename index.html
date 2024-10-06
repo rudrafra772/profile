@@ -7,6 +7,8 @@
     <link href="css/output.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMwT9D6U7r57P5h4y4F6q8lE7DmyA4qA4cC6N" crossorigin="anonymous">
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body class="bg-gray-200 " onload="fetchData()">
@@ -60,64 +62,81 @@
         </div>
 
     </section> 
-   <section id="about">
-  <div class="bg-gradient-to-b from-gray-900 to-gray-800 text-gray-200 py-28 relative overflow-hidden">
-    <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
-      <!-- Decorative animated element (floating particles or lines) -->
-      <div class="h-full bg-gradient-to-r from-transparent via-neon-green/20 to-transparent animate-pulse opacity-60"></div>
-    </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <!-- About Me Section -->
-      <div class="text-center mb-12">
-        <h2 class="text-4xl font-extrabold text-neon-green mb-4 animate-pulse">About Me</h2>
-        <p class="text-lg sm:text-xl lg:text-2xl text-gray-400">I'm a passionate developer with a focus on building user-friendly interfaces and efficient backends.</p>
-      </div>
-    
-      <!-- Skills Section -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Skill 1 -->
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-500 hover:scale-105 border border-neon-green transform hover:rotate-1">
-          <h3 class="text-xl font-semibold text-neon-green mb-4">Frontend Development</h3>
-          <p class="text-sm text-gray-400 mb-4">Building responsive and interactive user interfaces using HTML, CSS, Tailwind, and JavaScript.</p>
-          <ul class="list-disc list-inside text-sm text-gray-300">
-            <li>HTML5 & CSS3</li>
-            <li>Tailwind CSS</li>
-            <li>JavaScript</li>
-          </ul>
-        </div>
+    <section id="about">
+        <div class="bg-gradient-to-b from-gray-900 to-gray-800 text-gray-200 py-28 relative overflow-hidden">
+          <div class="absolute top-0 left-0 w-full h-full pointer-events-none">
+            <!-- Decorative animated element (floating particles or lines) -->
+            <div class="h-full bg-gradient-to-r from-transparent via-blue-500/20 to-transparent animate-pulse opacity-60"></div>
+          </div>
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- About Me Section -->
+            <div class="text-center mb-12">
+              <h2 class="text-4xl font-extrabold text-blue-500 mb-4 animate-pulse">About Me</h2>
+              <p class="text-lg sm:text-xl lg:text-2xl text-gray-400">I'm a passionate developer with a focus on building user-friendly interfaces and efficient backends.</p>
+            </div>
 
-        <!-- Skill 2 -->
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-500 hover:scale-105 border border-neon-green transform hover:-rotate-1">
-          <h3 class="text-xl font-semibold text-neon-green mb-4">Backend Development</h3>
-          <p class="text-sm text-gray-400 mb-4">Creating robust backend systems using Django, Python, and REST APIs.</p>
-          <ul class="list-disc list-inside text-sm text-gray-300">
-            <li>Django & Python</li>
-            <li>RESTful APIs</li>
-            <li>Database Design</li>
-          </ul>
+            <!-- Experience Section -->
+            <div class="mb-12">
+              <h3 class="text-3xl font-bold text-blue-500 mb-4">Experience</h3>
+              <div class="bg-gray-800 p-6 rounded-lg shadow-lg mb-4">
+                <h4 class="text-xl font-semibold text-neon-green mb-2">Software Developer</h4>
+                <p class="text-sm text-gray-400">Example Company - 2021 to Present</p>
+                <p class="text-sm text-gray-300">- Developed user-friendly applications and improved performance by 30%.</p>
+              </div>
+              <div class="bg-gray-800 p-6 rounded-lg shadow-lg mb-4">
+                <h4 class="text-xl font-semibold text-neon-green mb-2">Intern Web Developer</h4>
+                <p class="text-sm text-gray-400">Another Company - 2020 to 2021</p>
+                <p class="text-sm text-gray-300">- Assisted in building responsive websites and implementing features.</p>
+              </div>
+            </div>
+      
+            <!-- Skills Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Skill 1 -->
+              <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-500 hover:scale-105 border border-neon-green transform hover:rotate-1">
+                <h3 class="text-xl font-semibold text-neon-green mb-4">Frontend Development</h3>
+                <p class="text-sm text-gray-400 mb-4">Building responsive and interactive user interfaces using HTML, CSS, Tailwind, and JavaScript.</p>
+                <ul class="list-disc list-inside text-sm text-gray-300">
+                  <li>HTML5 & CSS3</li>
+                  <li>Tailwind CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+      
+              <!-- Skill 2 -->
+              <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-500 hover:scale-105 border border-neon-green transform hover:-rotate-1">
+                <h3 class="text-xl font-semibold text-neon-green mb-4">Backend Development</h3>
+                <p class="text-sm text-gray-400 mb-4">Creating robust backend systems using Django, Python, and REST APIs.</p>
+                <ul class="list-disc list-inside text-sm text-gray-300">
+                  <li>Django & Python</li>
+                  <li>RESTful APIs</li>
+                  <li>Database Design</li>
+                </ul>
+              </div>
+      
+              <!-- Skill 3 -->
+              <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-500 hover:scale-105 border border-neon-green transform hover:rotate-1">
+                <h3 class="text-xl font-semibold text-neon-green mb-4">Version Control & Tools</h3>
+                <p class="text-sm text-gray-400 mb-4">Efficient project management and version control using Git, GitHub, and CI/CD pipelines.</p>
+                <ul class="list-disc list-inside text-sm text-gray-300">
+                  <li>Git & GitHub</li>
+                  <li>CI/CD Pipelines</li>
+                  <li>Agile Methodologies</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Download Resume Section -->
+          <div class="text-center mt-12">
+            <h4 class="text-lg font-semibold mb-2">Or</h4>
+            <a href="/doc/Resume_Rudra_Mehta.pdf" download class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition duration-300 ease-in-out">
+                Download My Resume
+            </a>
+          </div>
         </div>
-
-        <!-- Skill 3 -->
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-500 hover:scale-105 border border-neon-green transform hover:rotate-1">
-          <h3 class="text-xl font-semibold text-neon-green mb-4">Version Control & Tools</h3>
-          <p class="text-sm text-gray-400 mb-4">Efficient project management and version control using Git, GitHub, and CI/CD pipelines.</p>
-          <ul class="list-disc list-inside text-sm text-gray-300">
-            <li>Git & GitHub</li>
-            <li>CI/CD Pipelines</li>
-            <li>Agile Methodologies</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-     <!-- Download Resume Section -->
-     <div class="text-center mt-12">
-        <h4 class="text-lg font-semibold mb-2">Or</h4>
-        <a href="/path/to/your-resume.pdf" download class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition duration-300 ease-in-out">
-            Download My Resume
-        </a>
-    </div>
-  </div>
-</section>
+      </section>
+      
 
 <section id="projects" class="py-28 bg-gray-900 text-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -177,7 +196,8 @@
         </div>
     </div>
 </section>
-<hr class="text-white ">
+<hr class="border-gray-700" >
+ 
 <section id="contact" class="py-28 bg-gray-900 text-gray-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Title -->
@@ -217,21 +237,31 @@
         <div class="flex flex-col md:flex-row justify-between items-center mb-6">
             <div class="text-center md:text-left">
                 <h4 class="text-lg font-semibold mb-2">Connect With Me</h4>
-                <div class="flex space-x-4">
+                <div class="flex justify-center md:justify-start space-x-4">
                     <a href="https://twitter.com/yourprofile" class="hover:text-blue-500 transition duration-300 ease-in-out" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-twitter fa-lg"></i>
+                        <svg class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.953 4.57c-.885.392-1.83.656-2.825.775 1.013-.607 1.794-1.564 2.165-2.724-.95.56-2.004.975-3.127 1.193-.895-.955-2.173-1.55-3.594-1.55-2.719 0-4.93 2.206-4.93 4.917 0 .385.045.761.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.731-.669 1.577-.669 2.488 0 1.719.873 3.23 2.188 4.119-.807-.026-1.564-.247-2.228-.616v.062c0 2.397 1.707 4.4 3.977 4.867-.416.113-.853.171-1.296.171-.315 0-.626-.031-.93-.086.627 1.963 2.445 3.395 4.598 3.433-1.684 1.318-3.8 2.103-6.096 2.103-.395 0-.785-.023-1.17-.067 2.165 1.386 4.735 2.196 7.485 2.196 8.972 0 13.885-7.434 13.885-13.886 0-.211 0-.422-.015-.632.951-.688 1.774-1.549 2.426-2.529z"/>
+                        </svg>
                     </a>
                     <a href="https://github.com/yourprofile" class="hover:text-gray-400 transition duration-300 ease-in-out" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github fa-lg"></i>
+                        <svg class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.372 0 0 5.373 0 12c0 5.304 3.438 9.8 8.207 11.387.6.111.793-.26.793-.578 0-.285-.01-1.238-.016-2.25-3.338.724-4.042-1.607-4.042-1.607-.546-1.38-1.333-1.748-1.333-1.748-1.088-.743.083-.728.083-.728 1.205.085 1.838 1.238 1.838 1.238 1.067 1.834 2.8 1.303 3.48.995.108-.773.418-1.303.762-1.603-2.665-.304-5.466-1.33-5.466-5.926 0-1.313.468-2.386 1.236-3.22-.124-.304-.535-1.532.117-3.193 0 0 1.008-.323 3.303 1.23.958-.266 1.988-.399 3.003-.404 1.016.005 2.046.138 3.004.404 2.297-1.553 3.303-1.23 3.303-1.23.653 1.661.241 2.889.118 3.193.77.834 1.236 1.907 1.236 3.22 0 4.607-2.805 5.622-5.476 5.923.43.372.815 1.107.815 2.229 0 1.608-.015 2.903-.015 3.295 0 .318.188.694.798.578C20.565 21.8 24 17.304 24 12c0-6.627-5.373-12-12-12z"/>
+                        </svg>
                     </a>
                     <a href="https://linkedin.com/in/yourprofile" class="hover:text-blue-600 transition duration-300 ease-in-out" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin fa-lg"></i>
+                        <svg class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.447 20.452h-3.616v-5.579c0-1.331-.024-3.042-1.85-3.042-1.851 0-2.134 1.45-2.134 2.943v5.678H10.04V9h3.469v1.565h.051c.482-.912 1.663-1.876 3.43-1.876 3.677 0 4.352 2.423 4.352 5.585v5.178zM5.65 7.146c-1.189 0-2.16.966-2.16 2.166 0 1.201.971 2.166 2.16 2.166h.027c1.188 0 2.159-.965 2.159-2.166-.002-1.2-.972-2.166-2.159-2.166zm-.016 10.306H3.78V9h3.865v8.452zM21.114 0H2.886C1.292 0 0 1.293 0 2.886v18.229C0 22.707 1.293 24 2.886 24h18.229C22.707 24 24 22.707 24 21.114V2.886C24 1.293 22.707 0 21.114 0z"/>
+                        </svg>
                     </a>
                     <a href="https://instagram.com/yourprofile" class="hover:text-pink-500 transition duration-300 ease-in-out" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram fa-lg"></i>
+                        <svg class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">>
+                            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+                        </svg>
+                          
                     </a>
                 </div>
             </div>
+            
             <div class="mt-6 md:mt-0">
                 <h4 class="text-lg font-semibold mb-2">Contact Information</h4>
                 <p class="text-gray-400">Email: <a href="mailto:youremail@example.com" class="text-gray-300 hover:underline">youremail@example.com</a></p>
